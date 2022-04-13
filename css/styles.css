@@ -1,0 +1,87 @@
+body{
+	font-size: 16px;
+	font-family: "Arial", sans-serif;
+}
+
+/** HEADER **/
+#header-nav{
+	background-color: lightgrey;
+	border-radius: 0;
+	border: 1px solid black;
+}
+
+#brand-name { 
+	margin-left: 20px;
+	margin-bottom: 10px;
+	float: left;
+}
+#brand-name h1{ /* brand name */
+	color: blue;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+}
+
+.navbar-header button.navbar-toggle{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+#nav-list{
+	background-color: #f1f1f1;
+}
+#nav-list li:hover{
+	background-color: lightgrey;
+}
+
+/** END HEADER **/
+
+/** MAIN CONTENT **/
+#main-content{
+	height: 1000px;
+	
+}
+#menu-title h2{
+	font-size: 1.5em;
+}
+.menu-item{
+	position: relative;
+	border: 1px solid black;
+	background-color: lightgrey;
+	overflow: scroll;
+	height: 300px;
+	margin: 0 auto 15px;
+}
+.menu-item > div{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 6em;
+	border: 1px solid black;
+
+}
+.menu-item h3{
+	font-size: 1em;
+	font-weight: bold;
+	margin: 2px;
+	padding: 2px;
+}
+.menu-item p{
+	padding: 30px 15px 0px 15px;
+	font-size: .75em;
+	text-align: left;
+}
+.menu-item p a{
+	text-decoration: underline;
+}
+
+#menu-chicken-title{
+	background-color: lightpink;
+}
+#menu-beef-title{
+	background-color: #d74d4d;
+	color: white;
+}
+#menu-sushi-title{
+	background-color: lightyellow;
+}
